@@ -20,7 +20,7 @@ function Navbar() {
       )}
       {!isDesktop && (
         <nav
-          className={`fixed w-[70vw] inset-y-0 z-[999] flex flex-col p-8 text-black bg-white duration-300 gap-10 ${
+          className={`fixed w-[70vw] inset-y-0 z-[999] flex flex-col p-8 text-[black] bg-[white] duration-300 gap-10 ${
             menuOpen ? "translate-x-0" : "translate-x-[-100%]"
           }`}
         >
@@ -53,7 +53,7 @@ function Navbar() {
               </ul>
               <ul className="flex justify-between items-center gap-8">
                 <li>Login / Registration</li>
-                <div className="hr h-10 w-[1px] bg-white"></div>
+                <div className="hr h-10 w-[1px] bg-[white]"></div>
                 <li>Book Table</li>
               </ul>
             </>

@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 export const ContextProvider = createContext();
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <ContextProvider.Provider value={{isDesktop, setIsDesktop}}>
         <Navbar />
         <Hero />
+        <About />
       </ContextProvider.Provider>
     </div>
   );
