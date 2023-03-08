@@ -1,0 +1,8 @@
+nav {
+    li {
+        &:hover {
+            color: darken(white, 20);
+            transition: all 300ms;
+        }
+    }
+}
